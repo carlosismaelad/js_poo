@@ -1,7 +1,7 @@
 //funcoes construtoras são nomeadas usando Pascal-Case CreatesBook
 // O que passaríamos como parâmetros podemos passar diretamente na função
 // usando a palavra reservada this
-function CreatesBook(title, pages, publication, tags, author, inStock){ 
+function Book(title, pages, publication, tags, author, inStock){ 
     this.title = title,
     this.pages = pages,
     this.publication = publication,
@@ -12,7 +12,7 @@ function CreatesBook(title, pages, publication, tags, author, inStock){
         this.inStock += quantity
     },
     this.save = function(){
-        return 'Salvo no estoque'
+        // 'Salvo no estoque'
     }
 }
 
@@ -21,7 +21,7 @@ const tags = ["Ciência", " Educação", " Programação", " Desenvolvimento"]
 
 
 
-const cleanCode = new CreatesBook('Clean code', 425, 2009, tags, author)
+const cleanCode = new Book('Clean code', 425, 2009, tags, author)
 
 
 console.log(cleanCode)
