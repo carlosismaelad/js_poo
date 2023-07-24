@@ -1,6 +1,5 @@
-//funcoes construtoras são nomeadas usando Pascal-Case CreatesBook
-// O que passaríamos como parâmetros podemos passar diretamente na função
-// usando a palavra reservada this
+// Funcoes construtoras são nomeadas usando Pascal-Case CreatesBook
+
 function Book(title, pages, publication, tags, author, inStock){ 
     this.title = title,
     this.pages = pages,

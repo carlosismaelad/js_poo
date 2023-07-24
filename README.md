@@ -19,3 +19,21 @@ Repassamos os parâmetros dentro do constructor, os mesmos que serão usados par
 
 - Instâncias: 
 São os objetos fabricados pela classe
+
+
+## Associação
+
+- O que é uma associação?
+
+Nada mais é do que um relacionamento entre clsasses que permite que
+uma instância de uma classe faça a outra realizar uma ação.
+
+É como dizer para a aplicação que um objeto de um tipo está 
+conectado, ou depende, de um objeto de um outro tipo.
+
+Ex:
+1 - Objetos de uma classe Person possuem um atributo que é 
+um objeto da classe Adress.
+
+2 - Objetos de uma classe Product possuem um atributo 
+que é um array  de objetos de uma classe Category.
