@@ -60,3 +60,22 @@ não pode ser alterado diretamente (usando obj.atributo = "novoValor");
 - Uma classe possui um método principal que internamente chama vários outros 
 métodos da própria classe que não fazem sentido individualmente. O encapsulamento
 pega várias coisas complexas e abstrai em coisas mais simples.
+
+
+## Herança
+É um recurso que permite criar classes que incluem, ou  herdam, para ser mais preciso,
+atributos e métodos de uma outra classe.
+
+À classe que é herdada damos o nome de superclass (ou classe mãe), e à classe
+que herda damos o nome de subclass (classe filha).
+
+Uma classe filha possui todos os atributos e métodos da classe mãe,
+mas também pode possuir os seus próprios (que serão exclusivos dela).
+
+Ex:
+- Imagine uma classe User que tem seu atributos e métodos. poderíamos ter classes
+AdminUsers, EditorUsers, StandardUser que seriam todas filhas da de User, mas cada uma teria, também,
+seu próprio métodos e atributos;
+
+- Ou ainda a classe Property (como um imóvel) pode ser a classe mãe
+das classes filhas House e Appartmen.
