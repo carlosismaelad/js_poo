@@ -32,10 +32,10 @@ uma instância de uma classe faça a outra realizar uma ação.
 conectado, ou depende, de um objeto de um outro tipo.
 
 Ex:
-1 - Objetos de uma classe Person possuem um atributo que é 
+- Objetos de uma classe Person possuem um atributo que é 
 um objeto da classe Adress.
 
-2 - Objetos de uma classe Product possuem um atributo 
+- Objetos de uma classe Product possuem um atributo 
 que é um array  de objetos de uma classe Category.
 
 
