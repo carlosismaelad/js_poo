@@ -79,3 +79,5 @@ seu próprio métodos e atributos;
 
 - Ou ainda a classe Property (como um imóvel) pode ser a classe mãe
 das classes filhas House e Appartmen.
+
+
