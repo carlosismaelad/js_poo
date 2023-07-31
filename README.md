@@ -73,7 +73,7 @@ Uma classe filha possui todos os atributos e métodos da classe mãe,
 mas também pode possuir os seus próprios (que serão exclusivos dela).
 
 Ex:
-- Imagine uma classe User que tem seu atributos e métodos. poderíamos ter classes
+- Imagine uma classe User que tem seu atributos e métodos. Poderíamos ter classes
 AdminUsers, EditorUsers, StandardUser que seriam todas filhas da de User, mas cada uma teria, também,
 seu próprio métodos e atributos;
 
