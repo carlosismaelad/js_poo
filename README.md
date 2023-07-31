@@ -81,3 +81,18 @@ seu próprio métodos e atributos;
 das classes filhas House e Appartmen.
 
 
+## Polimorfismo
+
+É o conceito que descreve o ato de um objeto poder assumir diferentes
+formas.
+
+Na POO, isso pode ser percebido na *sobrescrita de métodos*.
+
+No JavaScript, uma classe filha pode ter suas próprias implementações dos
+métodos da classe mãe. A isso damos o nome de *sobrescrita de métodos*.
+
+Ex:
+- A classe "Vehicle" possui alguns atributos e o método move();
+
+- As classes Bike, Car, Ship e Plane são filhas da classe Vehicle, porém,
+cada uma delas implementa o método move() de uma forma diferente (sobrescrevendo o método).
