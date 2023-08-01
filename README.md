@@ -98,6 +98,21 @@ Ex:
 cada uma delas implementa o método move() de uma forma diferente (sobrescrevendo o método).
 
 
+## Acessadores: get e set
 
+Os acessadores são um recurso para definir a forma como acessamos uma propriedade de um objeto (já vimos esta forma de acessar => pessoa.nome / pessoa.nome = novoNome);
+
+Com o acessador *get* (pegar/obter) podemos modificar a forma como uma propriedade é lida;
+
+Com o acessador *set* (definir/atribuir) podemos modificar a forma como um propriedade é alterada via 
+atribuição;
+
+Também conhecidos como *getters* e *setters*, "pegadores" e "setadores" ou "definidores", por assim dizer.
+
+Ex:
+
+- Uma classe possui uma propriedade que necessita de uma verificação antes de ter o seu valor modificado;
+
+- Uma classe possui uma propriedade privada que necessita de um acessador público somente para leitura.
 
 
