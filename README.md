@@ -116,3 +116,16 @@ Ex:
 - Uma classe possui uma propriedade privada que necessita de um acessador público somente para leitura.
 
 
+## Atributos e métodos estáticos
+
+São atributos e métodos definidos em uma classe que não dependem de uma instância para serem utilizados;
+
+São acessados diretamente pela classe ao invés de por uma instância;
+
+Ex:
+
+- Uma classe precisa definir um atributo que seja global, ou seja, que tenha o mesmo
+valor para todas  as instâncias;
+
+- Uma classe de modelo para uma tabela no banco de dados onde os métodos devem estar
+disponíveis mesmo que nenhuma instância tenha sido carregada ainda.
