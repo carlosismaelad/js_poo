@@ -96,3 +96,8 @@ Ex:
 
 - As classes Bike, Car, Ship e Plane são filhas da classe Vehicle, porém,
 cada uma delas implementa o método move() de uma forma diferente (sobrescrevendo o método).
+
+
+
+
+
