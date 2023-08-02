@@ -27,13 +27,13 @@ class Account{
         this.loans.push(loan)
     }
 
-    addTransfer(tranfer){
+    addTransfer(transfer){
         if (transfer.toUser.email === this.owner.email ){
-            this.#balance += tranfer.value
-            this.transfers.push(tranfer) 
-        } else if (tranfer.fromUser.email === this.owner.email){
-            this.#balance -= tranfer.value
-            this.transfers.push(tranfer) 
+            this.#balance += transfer.value
+            this.transfers.push(transfer) 
+        } else if (transfer.fromUser.email === this.owner.email){
+            this.#balance -= transfer.value
+            this.transfers.push(transfer) 
         }
     }
 }
